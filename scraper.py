@@ -12,17 +12,17 @@ options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options)
 
-# voy a la pagina 
+# voy a la pagina
 driver.get("https://ar.indeed.com/?r=us")
-print("Accediendo al navegador")
+print("Accediendo a indeed.com")
 
 # ingreso lo que busco
 titulo = driver.find_element_by_name("q")
-titulo.send_keys("Python")
+titulo.send_keys(input("Ingrese palabra clave a buscar: "))
 
 # ingreso lugar
 lugar = driver.find_element_by_name("l")
-lugar.send_keys("Argentina")
+lugar.send_keys(input("Ingrese localidad: "))
 
 # envio el formulario
 lugar.submit()
