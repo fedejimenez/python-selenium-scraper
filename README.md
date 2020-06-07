@@ -1,6 +1,7 @@
 # python-selenium-scraper
 
-Scraper básico para buscar trabajos en `indeed.com`
+- Scraper básico para buscar trabajos en `indeed.com`
+- Pregunta al usuario por palabra clave y localidad, y luego guarda los datos en un archivo de texto.
 
 ## Requerimientos
 
