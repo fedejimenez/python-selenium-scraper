@@ -7,3 +7,7 @@ Scraper básico para buscar trabajos en `indeed.com`
 - Selenium. Instalar con: `pip install selenium`
 
 - Navegador Firefox instalado.
+
+## Mejoras
+- Agregar interfaz visual con tkinter
+- Agregar lógica para recorrer varias páginas
