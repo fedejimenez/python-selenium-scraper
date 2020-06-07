@@ -1,6 +1,6 @@
 # python-selenium-scraper
 
-Scraper básico para buscar trabajos in `indeed.com`
+Scraper básico para buscar trabajos en `indeed.com`
 
 ## Requerimientos
 
