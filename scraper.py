@@ -29,8 +29,9 @@ lugar.submit()
 print("Enviando formulario")
 
 # creo un archivo y lo abro
-archivo = open("trabajos.txt", "x")
-archivo = open("trabajos.txt", "a")
+# archivo = open("trabajos.txt", "x") --  will create a file, returns an error if the file exist
+
+archivo = open("trabajos.txt", "a")  # will create a file if the specified file does not exist
 
 # pausa para evitar error de carga
 timeout = 3 # segundos
